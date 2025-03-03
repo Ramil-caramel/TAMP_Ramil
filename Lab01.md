@@ -18,7 +18,7 @@ $ pwd
 /home/kali/Ramil/workspace
 ```
 
-```
+```sh
 $ cd ..
 $ pwd
 ```
@@ -56,12 +56,12 @@ $ ls node/bin
 $ echo ${PATH}
 ```
 Выводим содержимое папки node/bin и значение переменной окружения PATH 
-```
+```sh
 $ export PATH=${PATH}:`pwd`/node/bin
 $ echo ${PATH}
 ```
 Добавляем в path путь до этой папки чтобы затем мы могли отовсюда испольховать утилиту Node.js и выводим обновленное значение PATH
-```
+```sh
 $ mkdir scripts
 $ cat > scripts/activate<<EOF
 export PATH=\${PATH}:`pwd`/node/bin

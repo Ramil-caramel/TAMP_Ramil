@@ -130,7 +130,7 @@ SUCCESS
 "-DCMAKE_TOOLCHAIN_FILE=/home/rama/Ramil-caramel/workspace/projects/lab07/tools/polly/default.cmake" "-DCMAKE_INSTALL_PREFIX=/home/rama/Ramil-caramel/workspace/projects/lab07/_install/default"
 ?                   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-og.txt
+Log saved: /home/rama/Ramil-caramel/workspace/projects/lab07/_logs/polly/clang-cxx14/log.txt
 -
 Generate: 0:00:24.950721s
 Build: 0:00:01.736528s
@@ -138,5 +138,6 @@ Build: 0:00:01.736528s
 Total: 0:00:26.687506s
 -
 SUCCESS
+
 
 ```
